@@ -31,7 +31,7 @@ def find_min_in_nested_arrays(src)
     
     max_value = -1
     
-    count_element = 0 
+    count_element = -1 
     
     count_index += 1 
     
