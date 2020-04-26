@@ -29,9 +29,9 @@ def find_min_in_nested_arrays(src)
     
     find_min << min_value
     
-    max_value = -1
+    #max_value = -1
     
-    count_element = -1 
+    #count_element = -1 
     
     count_index += 1 
     
