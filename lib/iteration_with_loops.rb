@@ -14,12 +14,12 @@ def find_min_in_nested_arrays(src)
     
     while count_element < src[count_index].count do
       
-      if src[count_index][count_element] < max_value 
-        min_value = src[count_index][count_element]
-      end
-   
-      if min_value > src[count_index][count_element]
-        min_value = src[count_index][count_element]
+      if min_value
+        if min_value > src[count_index][count_element]
+          min_value = src[count_index][count_element]
+        end
+      else 
+        min_value = src[count_index][0]
       end
     
       count_element += 1
