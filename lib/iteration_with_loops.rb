@@ -10,7 +10,7 @@ def find_min_in_nested_arrays(src)
   while count_index < src.count do 
     count_element = 0 
     max_value = -1
-    min_value = 0 
+    min_value = nil
     
     while count_element < src[count_index].count do
       
