@@ -9,7 +9,6 @@ def find_min_in_nested_arrays(src)
     
   while count_index < src.count do 
     count_element = 0 
-    #min_value = 0 
     max_value = -1
 
     
@@ -22,11 +21,9 @@ def find_min_in_nested_arrays(src)
         min_value = src[count_index][count_element]
       end
     
-      count_element += 1 
+      count_element += 1
       
-      #max_value = -1
-      
-      binding.pry
+      #binding.pry
       
     end
     
@@ -34,7 +31,7 @@ def find_min_in_nested_arrays(src)
     
     max_value = -1
     
-    #count_element = 0 
+    count_element = 0 
     
     count_index += 1 
     
